@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <script src="./assets/scripts/bundle.js" defer></script>
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="loader"></div>
+    <template class="search-template">
+      <div class="search-result">
+        <div class="text"><p></p></div>
+        <div class="audio">
+          <audio controls src="">
+            Your browser does not surpport the <code>audio</code>element.
+          </audio>
+        </div>
+        <div class="extra-info">
+          <p>Revlation--<span class="revelation"></span></p>
+          <p>Hizb--<span class="juzh"></span></p>
+          <p>Sajada--<span class="sajadah"></span></p>
+          <p>EnglishName--<span class="en-name"></span></p>
+        </div>
+      </div>
+    </template>
+    <template class="login">
+      <div class="login-box">
+        <div class="login-wrapper">
+          <label class="login-name" for="name">NAME:</label>
+          <input
+            class="login-input"
+            placeholder="Enter your name"
+            type="text"
+            name=""
+            id=""
+          />
+          <p class="quran-fact">
+            “Read the Quran, for verily it will come on the Day of Standing as
+            an intercessor for its companions.” (Muslim) Imagine the day we are
+            enveloped with fear, shock and anxiety with our canopy being the
+            sun, exposing scorching heat. Imagine feeling restless, awaiting our
+            book of deeds, nervous as to which hand it will be placed upon. Yet,
+            imagine, the Noble Book who we took as a companion in the dunya,
+            intercedes, adamant we attain Jannah.
+          </p>
+          <button class="login-btn">login</button>
+        </div>
+      </div>
+    </template>
+    <template class="previous">
+      <div class="previous-search">
+        <p class="ayah number"></p>
+        <p class="english-result"></p>
+      </div>
+    </template>
+    <nav>
+      <label class="welcome-greeting" for=""
+        >Assalamun 'alaykum, <span></span>.</label
+      >
+      <div class="menu">
+        <label class="menu-label">
+          <img
+            src="./assets/images/menu-symbol-of-three-parallel-lines-svgrepo-com.svg"
+            alt=""
+        /></label>
+
+        <ul>
+          <li><button class="by-suraah">Search by Suraah</button></li>
+          <li><button class="by-ayah">Search by Ayah</button></li>
+          <li><button class="by-hib">Search by Hizb</button></li>
+          <li><button class="by-juz">Search by Ju'z</button></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="search-container">
+        <input
+          placeholder="Ayah format: 262 or 2:255"
+          class="search-input"
+          type="text"
+        />
+        <button class="search-btn">Search</button>
+      </div>
+      <div class="welcome-text">
+        <p>
+          “Verily the one who recites the Quran beautifully, smoothly, and
+          precisely, he will be in the company of the noble and obedient angels.
+          And as for the one who recites with difficulty, stammering or
+          stumbling through its verses, then he will have TWICE that reward.”
+          (Sahih Al-Bukhari)
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
